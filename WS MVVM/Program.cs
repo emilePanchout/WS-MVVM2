@@ -1,4 +1,5 @@
 ﻿using System;
+using WS_MVVM.View;
 
 namespace WS_MVVM
 {
@@ -6,10 +7,8 @@ namespace WS_MVVM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Entrez la chaîne de caractères :");
-            string input;
-            input = Console.ReadLine();
-            Console.WriteLine(input);
+            View.View view = new View.View();
+            view.run();
         }
     }
 }
