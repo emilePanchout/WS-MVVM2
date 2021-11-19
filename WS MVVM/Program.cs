@@ -6,7 +6,10 @@ namespace WS_MVVM
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Entrez la chaîne de caractères :");
+            string input;
+            input = Console.ReadLine();
+            Console.WriteLine(input);
         }
     }
 }
